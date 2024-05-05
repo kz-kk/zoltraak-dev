@@ -154,7 +154,7 @@ Readme files in other languages are available here. Currently we support:
 
 ## インストール
 
-[インストール](docs/installation.md)
+[インストール方法(Mac・Windows)](docs/installation.md)
 
 <br>
 
