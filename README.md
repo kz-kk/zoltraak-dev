@@ -100,18 +100,14 @@ Zoltraak は自然言語を実行言語に変換するプロンプトコンパ�
   <tr>
     <th>Streamlit</th> 
     <td>
-      https://x.com/habatakurikei/status/1784561693705560419
-      
+      https://x.com/habatakurikei/status/1784561693705560419      
       https://twitter.com/habatakurikei
     </td>
   </tr>
   <tr>
     <th>hagging face</th> 
     <td>
-      https://github.com/Sunwood-ai-labs/zoltraak_docker
-      
-      https://t.co/TlEq204NBG
-      
+      https://t.co/TlEq204NBG    
       https://x.com/hokazuya/status/1784887255154282524
     </td>
   </tr>
