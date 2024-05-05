@@ -188,14 +188,14 @@ Readme files in other languages are available here. Currently we support:
    基本的には何も考えずに、以下の順番でコマンドを入力すればよいです。
 
    1. ワークスペースへ移動
-      ```console:console
+      ```console: console
       cd C:/Users/{ユーザ名}/workspace
       ```
       `cd`とは「チェンジディレクトリ」の略で、ターミナルが指定したパスに移動してくれます。
       つまり移動先の中でターミナルが動くよ、ということです。
    2. 仮想環境を構築
 
-      ```
+      ```console: console
       python -m venv .venv
       ```
 
@@ -207,7 +207,7 @@ Readme files in other languages are available here. Currently we support:
 
    3. 仮想環境の有効化
 
-      ```
+      ```console
       .venv\scripts\activate
       ```
 
@@ -219,7 +219,7 @@ Readme files in other languages are available here. Currently we support:
 
    4. Zoltraak のインストール
 
-      ```
+      ```console: console
       pip install zoltraak
       ```
 
@@ -250,7 +250,7 @@ Readme files in other languages are available here. Currently we support:
 
       以上で準備は整いました。以下のように、`zoltraak`コマンドに続けて"プロンプト"と起動式（プロンプトコンパイラ）を指定します。
 
-      ```
+      ```console: console
       zoltraak "プロンプト内容" -c コンパイラ名
       ```
 
