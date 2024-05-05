@@ -131,7 +131,7 @@ Readme files in other languages are available here. Currently we support:
 - [設定](docs/configuration.md)
 - [FAQ](docs/faq.md)
 - [始め方](docs/getting-started.md)
-- [インストール](docs/installation.md)
+- [インストール] [mac](docs/installation_mac.md) [windows](docs/installation_windows.md)
 - [使用方法](docs/usage.md)
 - [例](docs/examples)
 - [トラブルシューティング](docs/troubleshooting.md)
