@@ -151,6 +151,7 @@ Readme files in other languages are available here. Currently we support:
 ビジネスサイドの方でも迷わないように、丁寧に記載します。
 
 <br>
+## インストール
 
 [Macでのインストール](docs/install_mac.md)
 
@@ -174,7 +175,7 @@ Readme files in other languages are available here. Currently we support:
 
 <br>
 
-**4. 具体例**
+## 具体例
 
    ```sh
    zoltraak "Manimを用いて、MoE（専門家の混合）モデルを視覚化するプログラムを開発する" -c dev_func
@@ -225,7 +226,7 @@ zoltraak dir/*.md （作成予定）
 
 ![llmcomment.png](assets/images/llmcomment.png)
 
-### オプショナル引数
+## オプショナル引数
 
 - `-f` : フォーマット指定。grimoires フォルダ
 - `-l` : 汎用言語指定。言語名は、"Español"などの現地名でも、"Spanish"のような英語でも、「スペイン語」のような日本語でも OK です。
