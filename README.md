@@ -145,11 +145,12 @@ Readme files in other languages are available here. Currently we support:
 ![Last frame of video](assets/images/last_frame.png)
 
 <br>
-<br>
 
 # Zoltraak 利用方法
 
 ビジネスサイドの方でも迷わないように、丁寧に記載します。
+
+<br>
 
 ## インストール
 
@@ -245,25 +246,7 @@ zoltraak "今月中にオブジェクト指向設計を用いて、多機能在�
 
 コントリビューションを歓迎します！問題を見つけた場合や改善の提案がある場合は、issue を開くかプルリクエストを送信してください。
 
-[開発者向け プロジェクトへの参加](docs/dev.md)
-
-<br>
-
-## コントリビューターの追加方法
-
-コントリビューターを追加するには、以下の手順を実行してください:
-
-1. issue またはプルリクエストに、以下の形式でコメントを残してください:
-
-```
-@all-contributors please add @username for <contributions>
-```
-
-`@username`をコントリビューターの GitHub ユーザー名に、`<contributions>`をコントリビュートのタイプに置き換えてください。コントリビュートのタイプは、[Emoji Key](https://allcontributors.org/docs/en/emoji-key)を参照してください。
-
-2. ボットがコントリビューターをプロジェクトに追加するためのプルリクエストを作成します。
-
-3. プルリクエストがマージされると、コントリビューターが README に追加されます。
+[開発者向け プロジェクトへの参加](docs/contributing.md)
 
 <br>
 
