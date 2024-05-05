@@ -151,8 +151,6 @@ Readme files in other languages are available here. Currently we support:
 
 ビジネスサイドの方でも迷わないように、丁寧に記載します。
 
-<br>
-
 ## インストール
 
 [Macでのインストール](docs/install_mac.md)
@@ -243,8 +241,13 @@ zoltraak "今月中にオブジェクト指向設計を用いて、多機能在�
 zoltraak "今月中にオブジェクト指向設計を用いて、多機能在庫管理システムを開発する" -c dev_obj -l グルジア語
 ```
 
-
 <br>
+
+## 開発者向け プロジェクトへの参加
+
+[参加する](docs/dev.md)
+
+
 
 ## その他
 
