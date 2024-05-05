@@ -152,20 +152,20 @@ Readme files in other languages are available here. Currently we support:
 
 <br>
 
-## インストール
+## Zoltraak インストール
 
-[Macでのインストール >>](docs/install_mac.md)
+[Macでのインストール](docs/install_mac.md)
 
-[Windowsでのインストール >>](docs/install_windows.md)
+[Windowsでのインストール](docs/install_windows.md)
 
 <br>
 
-## Zoltraakの実行
+## Zoltraak 実行
 
-[Zoltraakの実行 >>](docs/prompt_compiler.md)
+[Zoltraakの実行方法](docs/prompt_compiler.md)
 
 <br>
 
 ## その他
 
-[その他 >>](docs/tmp.md)
+[その他](docs/tmp.md)
