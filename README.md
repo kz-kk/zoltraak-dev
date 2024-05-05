@@ -176,7 +176,7 @@ Readme files in other languages are available here. Currently we support:
 
 <br>
 
-## 具体例
+### 具体例
 
    ```sh
    zoltraak "Manimを用いて、MoE（専門家の混合）モデルを視覚化するプログラムを開発する" -c dev_func
@@ -186,24 +186,24 @@ Readme files in other languages are available here. Currently we support:
    zoltraak "今月中に政府向けの少子化対策として、具体的な施策と予算案を含む提言書を執筆する" -c general_reqdef
    ```
 
-5. `test_dev_obj.md`というファイルを作成し、後続スレッドの内容をコピーして貼り付けてください。このファイルを zoltraak を実行するディレクトリと同じ階層に配置します。
+1. `test_dev_obj.md`というファイルを作成し、後続スレッドの内容をコピーして貼り付けてください。このファイルを zoltraak を実行するディレクトリと同じ階層に配置します。
 
-6. `test_dev_obj.md`を以下のルールに従って自分の定義書生成プログラムに書き換えましょう:
+2. `test_dev_obj.md`を以下のルールに従って自分の定義書生成プログラムに書き換えましょう:
 
    - `{prompt}`は zoltraak の後のプロンプト（呪文）が入るので消さないでください。
    - `## 2. ファイル・フォルダ構成`も消さないでください。
    - それ以外は自由に変更可能です。
 
-7. 以下のコマンドを実行して、自作コンパイラを使用します:
+3. 以下のコマンドを実行して、自作コンパイラを使用します:
 
    ```sh
    zoltraak プロンプト -cc 自作コンパイラ
    zoltraak "コーヒーショップ顧客管理システムを作りたい" -cc test_dev_obj.md
    ```
 
-8. `zoltraak requirements/~~~.md`が貼り付けできるようになっているはずなので実行してください。
+4. `zoltraak requirements/~~~.md`が貼り付けできるようになっているはずなので実行してください。
 
-9. ディレクトリが構築されます。Cursor、VSCode にて open コマンドが起動しない方は以下を参照してください:
+5. ディレクトリが構築されます。Cursor、VSCode にて open コマンドが起動しない方は以下を参照してください:
    https://note.com/88gram/n/n4ead3a677b83
 
 注意: 全て Claude3 Haiku により実行されています（一回あたり約 1 円の料金がかかります。ご自身で確認ください）。
@@ -248,11 +248,11 @@ zoltraak "今月中にオブジェクト指向設計を用いて、多機能在�
 
 [開発者向け プロジェクトへの参加](docs/contributing.md)
 
+<br>
+
 ## ライセンス
 
 GPL-3.0 license
-
-<br>
 
 ## その他
 
