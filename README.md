@@ -248,9 +248,11 @@ zoltraak "今月中にオブジェクト指向設計を用いて、多機能在�
 
 [開発者向け プロジェクトへの参加](docs/contributing.md)
 
-<br>
-
 ## ライセンス
+
+GPL-3.0 license
+
+<br>
 
 ## その他
 
