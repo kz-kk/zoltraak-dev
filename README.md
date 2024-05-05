@@ -195,7 +195,7 @@ Readme files in other languages are available here. Currently we support:
       つまり移動先の中でターミナルが動くよ、ということです。
    2. 仮想環境を構築
 
-      ```shell: shell
+      ```shell
       python -m venv .venv
       ```
 
