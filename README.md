@@ -11,7 +11,7 @@ Zoltraakは本格的な魔法時代の始まりを象徴する強大な創造魔
 これは近い未来、一般魔法になるものです。
 
 遠慮は要りません。
-  
+<br><br>
 
 ![撃て。](assets/images/cast_zoltraak.png)
 
