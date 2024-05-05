@@ -36,6 +36,8 @@ Zoltraakは本格的な魔法時代の始まりを象徴する強大な創造魔
 
 ![](assets/videos/zoltraak0.1.27_high_quality.gif)
 
+<br>
+<br>
 
 ## 貢献者
 
