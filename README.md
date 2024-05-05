@@ -30,7 +30,6 @@ Zoltraakは本格的な魔法時代の始まりを象徴する強大な創造魔
 <img src="https://img.shields.io/github/issues/XiaogangHe/InVEST-Cities-in-Nature" /></a> -->
 
 <br>
-<br>
 
 ## 最新リリース
 0.1.27: ファイル執筆作成自動化
