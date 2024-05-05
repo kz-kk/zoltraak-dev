@@ -114,15 +114,17 @@ Zoltraak は自然言語を実行言語に変換するプロンプトコンパ�
 </table>
 
 <br>
-<br>
 
 ## 他言語（Other languages）
 
-他言語版 readme は以下からご覧になれます。現在サポートしているのは以下の言語です。
+他言語版 readme は以下からご覧になれます。
+現在サポートしているのは以下の言語です。
 
 Readme files in other languages are available here. Currently we support:
 
 - [English](README_EN.md)
+
+<br>
 
 # 目次
 
@@ -138,13 +140,19 @@ Readme files in other languages are available here. Currently we support:
 - [ビデオ](docs/video.md)
 - [貢献](docs/contributing.md)
 
+<br>
+
 # Zoltraak の動作イメージ
 
 ![Last frame of video](assets/images/last_frame.png)
 
+<br>
+
 # 利用方法
 
 ビジネスサイドの方でも迷わないように、丁寧に記載します。
+
+<br>
 
 ## Windows での利用方法
 
