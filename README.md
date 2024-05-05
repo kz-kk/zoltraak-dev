@@ -92,10 +92,28 @@ Zoltraak は自然言語を実行言語に変換するプロンプトコンパ�
 <br>
 
 ## ディストリビューション
-|:-----------|:------------|
-| **zoltraak-docker** | https://github.com/Sunwood-ai-labs/zoltraak_docker |
-| **Streamlit**       | [https://github.com/Sunwood-ai-labs/zoltraak_docker](https://x.com/habatakurikei/status/1784561693705560419) <br> [https://twitter.com/habatakurikei](https://twitter.com/habatakurikei) <br> [https://twitter.com/habatakurikei](https://twitter.com/habatakurikei)|
-| **hagging face** | [https://github.com/Sunwood-ai-labs/zoltraak_docker](https://t.co/TlEq204NBG) <br> [https://x.com/hokazuya/status/1784887255154282524](https://x.com/hokazuya/status/1784887255154282524)|
+<table>
+  <caption>HTMLの要素</caption>
+  <tr>
+    <th>zoltraak-docker</th> 
+    <td>[https://github.com/Sunwood-ai-labs/zoltraak_docker](https://github.com/Sunwood-ai-labs/zoltraak_docker)</td>
+  </tr>
+  <tr>
+    <th>Streamlit</th> 
+    <td>
+      [https://github.com/Sunwood-ai-labs/zoltraak_docker](https://x.com/habatakurikei/status/1784561693705560419) 
+      [https://twitter.com/habatakurikei](https://twitter.com/habatakurikei)
+      [https://twitter.com/habatakurikei](https://twitter.com/habatakurikei)
+    </td>
+  </tr>
+  <tr>
+    <th>hagging face</th> 
+    <td>
+      [https://github.com/Sunwood-ai-labs/zoltraak_docker](https://t.co/TlEq204NBG) 
+      [https://x.com/hokazuya/status/1784887255154282524](https://x.com/hokazuya/status/1784887255154282524)
+    </td>
+  </tr>
+</table>
 
 <br>
 <br>
