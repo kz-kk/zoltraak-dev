@@ -146,13 +146,13 @@ Readme files in other languages are available here. Currently we support:
 
 <br>
 
-# 利用方法
+# Zoltraak 利用方法
 
 ビジネスサイドの方でも迷わないように、丁寧に記載します。
 
 <br>
 
-## Zoltraak インストール
+## インストール
 
 [Macでのインストール](docs/install_mac.md)
 
@@ -160,7 +160,7 @@ Readme files in other languages are available here. Currently we support:
 
 <br>
 
-## Zoltraak 実行
+## 実行
 
 [Zoltraakの実行方法](docs/prompt_compiler.md)
 
