@@ -183,6 +183,7 @@ Readme files in other languages are available here. Currently we support:
       コマンドプロンプトや Powershell でも構いませんし、vscoede などを入れても構いません。以下、ターミナルと呼びます。
       次項では、このターミナルに呪文を打ち込んで、`Enter`を押下していきます。
 
+
 **2. 詠唱**
 
    基本的には何も考えずに、以下の順番でコマンドを入力すればよいです。
