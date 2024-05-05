@@ -4,11 +4,6 @@
 <p>
 Zoltraakは本格的な魔法時代の始まりを象徴する強大な創造魔法の名です。
 
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username={名前})]
-(https://github.com/anuraghazra/github-readme-stats)
-
-
 これまでの未体系であった呪文からの術の発動を、魔法の文法体系に昇華しより高速かつ広範囲な術式展開と強大な魔法の発動を可能とするシステムです。
 
 これは近い未来、一般魔法になるものです。
