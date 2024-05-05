@@ -152,6 +152,9 @@ Readme files in other languages are available here. Currently we support:
 
 <br>
 
+[Mac での利用方法](docs/install_mac.md)
+[Windows での利用方法](docs/install_windows.md)
+
 ## Windows での利用方法
 
 **1. 事前準備**
