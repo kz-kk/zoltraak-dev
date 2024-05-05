@@ -145,8 +145,9 @@ Readme files in other languages are available here. Currently we support:
 ![Last frame of video](assets/images/last_frame.png)
 
 <br>
+<br>
 
-## Zoltraak 利用方法
+# Zoltraak 利用方法
 
 ビジネスサイドの方でも迷わないように、丁寧に記載します。
 
