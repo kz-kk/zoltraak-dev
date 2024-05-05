@@ -172,7 +172,7 @@ Readme files in other languages are available here. Currently we support:
       ユーザ配下に「workspace」など、任意の名前の専用フォルダを作っておくと、既存のファイルと混ざらずに管理しやすくなります。
       ここでは、以下のようなフォルダを作成しておきます。
 
-      ```
+      ```console
       C:/Users/{ユーザ名}/workspace
       ```
 
