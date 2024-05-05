@@ -131,7 +131,7 @@ Readme files in other languages are available here. Currently we support:
 - [設定](docs/configuration.md)
 - [FAQ](docs/faq.md)
 - [始め方](docs/getting-started.md)
-- [インストール] [mac](docs/installation_mac.md) [windows](docs/installation_windows.md)
+- [インストール](docs/installation.md)
 - [使用方法](docs/usage.md)
 - [例](docs/examples)
 - [トラブルシューティング](docs/troubleshooting.md)
@@ -152,124 +152,14 @@ Readme files in other languages are available here. Currently we support:
 
 <br>
 
-[Mac での利用方法](docs/install_mac.md)
-[Windows での利用方法](docs/install_windows.md)
+[Macでのインストール](docs/install_mac.md)
 
-## Windows での利用方法
-
-**1. 事前準備**
-
-   1. Python のインストール
-
-      [こちら](https://pythonlinks.python.jp/ja/index.html)のリンク（非公式）から、windows 用インストーラをダウンロードして、Python3 をインストールします。
-
-   2. ANTHROPIC_API_KEY の取得
-
-      [こちら](https://console.anthropic.com/)で ANTHROPIC のアカウントを作成し、Get API Keys より API KEY をコピーして保存しておきます。
-      **絶対に誰にも見られないように管理しましょう。勝手に課金され放題になってしまいます。**
-
-   3. ワークスペースフォルダの作成
-
-      ユーザ配下に「workspace」など、任意の名前の専用フォルダを作っておくと、既存のファイルと混ざらずに管理しやすくなります。
-      ここでは、以下のようなフォルダを作成しておきます。
-
-      ```console
-      C:/Users/{ユーザ名}/workspace
-      ```
-
-      自分で別の名前を命名した場合、以下においては`workspace`を自分のつけた名前で読み替えてください。
-
-   4. テキストエディタの立ち上げ
-
-      コマンドプロンプトや Powershell でも構いませんし、vscoede などを入れても構いません。以下、ターミナルと呼びます。
-      次項では、このターミナルに呪文を打ち込んで、`Enter`を押下していきます。
+[Windowsでのインストール](docs/install_windows.md)
 
 <br>
 
-**2. 詠唱**
+## プロンプトコンパイラ（起動式）の指定
 
-   基本的には何も考えずに、以下の順番でコマンドを入力すればよいです。
-
-   1. ワークスペースへ移動
-      ```console
-      cd C:/Users/{ユーザ名}/workspace
-      ```
-      `cd`とは「チェンジディレクトリ」の略で、ターミナルが指定したパスに移動してくれます。
-      つまり移動先の中でターミナルが動くよ、ということです。
-   2. 仮想環境を構築
-
-      ```console
-      python -m venv .venv
-      ```
-
-      ターミナルが今いるフォルダ内に、仮想環境となるフォルダを作ってくれるコマンドです。
-
-      最後の`.venv`は任意のフォルダ名でも構いません。自分で名付けた場合、以下の手順についても`.venv`を自分のつけた名前に読み替えてください。
-
-      この中身が仮想環境となり、既存環境から切り離して`Zoltraak`を扱えるようになります。
-
-   3. 仮想環境の有効化
-
-      ```console
-      .venv\scripts\activate
-      ```
-
-      こうするとターミナルの左側に`（.venv）`と表示されるかと思います。
-
-      そうなっている場合、ターミナルが仮想環境に対して動作していることを意味しています。
-
-      なお、解除には`deactivate`と打てばよいです。
-
-   4. Zoltraak のインストール
-
-      ```console
-      pip install zoltraak
-      ```
-
-      しばらく時間がかかります。`.venv`内を開くといくつものフォルダが作られていることがわかります。
-      特に、魔導書の根幹となるファイルたちは、以下のパスに保存されています。
-
-      ```
-      C:\Users\{ユーザ名}\workspace\.venv\Lib\site-packages\zoltraak\grimoires
-      ```
-
-      この中身は、この README 下部の「魔導書構成」で示されていますのでそちらを参照のこと。
-
-   5. `.env`ファイルの作成
-
-      エクスプローラ（黄色いフォルダのやつ）を開いて、`C:/Users/{ユーザ名}/workspace/.venv/Lib/site-packages/zoltraak`を開きます。
-
-      ここに「右クリック>>新規作成>>テキストドキュメント」から、テキストファイルを作成します。
-      =>作成したら、ファイル名を`.env`に変更します。
-      それから、ファイルを開いて、1 行目に以下のように入力して保存します。
-
-      ```
-      ANTHROPIC_API_KEY=ここにAnthropicから取得したキー
-      ```
-
-      ※本当はコマンドでも作成できますが、文字コードというのを合わせるなどが必要なので、現状は非エンジニアは手動で作成したほうが簡単のようです。
-
-   6. 詠唱
-
-      以上で準備は整いました。以下のように、`zoltraak`コマンドに続けて"プロンプト"と起動式（プロンプトコンパイラ）を指定します。
-
-      ```console: console
-      zoltraak "プロンプト内容" -c コンパイラ名
-      ```
-
-      コンパイラ名、プロンプト内容の例については、次項以降にて示します。
-
-      これにより、入力したプロンプトに基づいた要件定義書が生成されます。生成された要件定義書は叩き台となるため、必要に応じて内容を修正・拡充してください。
-      生成された要件定義書は、以下のフォルダに格納されます。
-
-      ```
-      C:\Users\{ユーザ名}\workspace\generated\requirements
-      C:\Users\{ユーザ名}\workspace\requirements
-      ```
-
-<br>
-
-**3. プロンプトコンパイラ（起動式）の指定**
 
    `-c` オプション以降は用途に応じて変更できるプロンプトコンパイラ（起動式）を指定します。指定なしの場合は、最も適切と思われるプロンプトコンパイラを 5 つ自動でピックアップするコンパイラが実行されます。
 
