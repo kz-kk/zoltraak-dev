@@ -96,7 +96,7 @@ Zoltraak は自然言語を実行言語に変換するプロンプトコンパ�
   <caption>HTMLの要素</caption>
   <tr>
     <th>zoltraak-docker</th> 
-    <td>[https://github.com/Sunwood-ai-labs/zoltraak_docker](https://github.com/Sunwood-ai-labs/zoltraak_docker)</td>
+    <td>https://github.com/Sunwood-ai-labs/zoltraak_docker</td>
   </tr>
   <tr>
     <th>Streamlit</th> 
