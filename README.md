@@ -183,6 +183,7 @@ Readme files in other languages are available here. Currently we support:
       コマンドプロンプトや Powershell でも構いませんし、vscoede などを入れても構いません。以下、ターミナルと呼びます。
       次項では、このターミナルに呪文を打ち込んで、`Enter`を押下していきます。
 
+<br>
 
 **2. 詠唱**
 
@@ -265,6 +266,8 @@ Readme files in other languages are available here. Currently we support:
       C:\Users\{ユーザ名}\workspace\requirements
       ```
 
+<br>
+
 **3. プロンプトコンパイラ（起動式）の指定**
    `-c` オプション以降は用途に応じて変更できるプロンプトコンパイラ（起動式）を指定します。指定なしの場合は、最も適切と思われるプロンプトコンパイラを 5 つ自動でピックアップするコンパイラが実行されます。
 
@@ -276,6 +279,8 @@ Readme files in other languages are available here. Currently we support:
    | general_def       | 一般的な開発タスクに関する要件定義書を生成するコンパイラ                     |
    | general_reqdef    | 一般的な要求事項に関する要件定義書を生成するコンパイラ                       |
    | dev_react_fastapi | React + FastAPI を用いた開発タスクに関する要件定義書を生成するコンパイラ     |
+
+<br>
 
 **4. 具体例**
 
