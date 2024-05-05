@@ -153,9 +153,7 @@ Readme files in other languages are available here. Currently we support:
 
 ## インストール
 
-[Macでのインストール](docs/install_mac.md)
-
-[Windowsでのインストール](docs/install_windows.md)
+[インストール](docs/installation.md)
 
 <br>
 
@@ -263,11 +261,7 @@ zoltraak "今月中にオブジェクト指向設計を用いて、多機能在�
 
 `@username`をコントリビューターの GitHub ユーザー名に、`<contributions>`をコントリビュートのタイプに置き換えてください。コントリビュートのタイプは、[Emoji Key](https://allcontributors.org/docs/en/emoji-key)を参照してください。
 
-<br>
-
 2. ボットがコントリビューターをプロジェクトに追加するためのプルリクエストを作成します。
-
-<br>
 
 3. プルリクエストがマージされると、コントリビューターが README に追加されます。
 
