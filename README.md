@@ -156,7 +156,7 @@ Readme files in other languages are available here. Currently we support:
 
 ## Windows での利用方法
 
-1. 事前準備
+**1. 事前準備**
 
    1. Python のインストール
 
@@ -183,7 +183,7 @@ Readme files in other languages are available here. Currently we support:
       コマンドプロンプトや Powershell でも構いませんし、vscoede などを入れても構いません。以下、ターミナルと呼びます。
       次項では、このターミナルに呪文を打ち込んで、`Enter`を押下していきます。
 
-2. 詠唱
+**2. 詠唱**
 
    基本的には何も考えずに、以下の順番でコマンドを入力すればよいです。
 
@@ -264,7 +264,7 @@ Readme files in other languages are available here. Currently we support:
       C:\Users\{ユーザ名}\workspace\requirements
       ```
 
-3. プロンプトコンパイラ（起動式）の指定
+**3. プロンプトコンパイラ（起動式）の指定**
    `-c` オプション以降は用途に応じて変更できるプロンプトコンパイラ（起動式）を指定します。指定なしの場合は、最も適切と思われるプロンプトコンパイラを 5 つ自動でピックアップするコンパイラが実行されます。
 
    | コンパイラ名      | 説明                                                                         |
@@ -276,7 +276,7 @@ Readme files in other languages are available here. Currently we support:
    | general_reqdef    | 一般的な要求事項に関する要件定義書を生成するコンパイラ                       |
    | dev_react_fastapi | React + FastAPI を用いた開発タスクに関する要件定義書を生成するコンパイラ     |
 
-4. 具体例
+**4. 具体例**
 
    ```sh
    zoltraak "Manimを用いて、MoE（専門家の混合）モデルを視覚化するプログラムを開発する" -c dev_func
